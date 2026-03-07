@@ -4,6 +4,16 @@ on:
   push:
     branches:
       - main
+      - student1
+      - student2
+      - student3
+      - student4
+      - student5
+      - student6
+      - student7
+      - student8
+      - student9
+      - student10
 
 jobs:
   build:
@@ -12,17 +22,14 @@ jobs:
 
     steps:
 
-    - name: Checkout Code
-      uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Show Files
-      run: ls
+      - name: Show Project Files
+        run: ls
 
-    - name: Build Message
-      run: echo "Building Project"
+      - name: Build Project
+        run: echo "Building YCTI Project"
 
-    - name: Test Message
-      run: echo "Testing Project"
-
-    - name: Success
-      run: echo "CI Pipeline Completed"
+      - name: Test Project
+        run: echo "Testing YCTI Project"

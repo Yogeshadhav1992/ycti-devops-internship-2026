@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Report</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#eef2f7;
+margin:0;
+padding:0;
+}
+
+.container{
+width:75%;
+margin:auto;
+margin-top:30px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.header{
+text-align:center;
+margin-bottom:20px;
+}
+
+.header h1{
+color:#2c3e50;
+}
+
+.section{
+margin-top:25px;
+}
+
+.section h2{
+background:#3498db;
+color:white;
+padding:8px;
+border-radius:5px;
+font-size:18px;
+}
+
+.info-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+margin-top:10px;
+}
+
+.info-box{
+background:#f4f6f9;
+padding:10px;
+border-radius:5px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+table th{
+background:#2c3e50;
+color:white;
+padding:10px;
+}
+
+table td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+.summary{
+background:#f8f9fa;
+padding:15px;
+border-radius:5px;
+}
+
+.signature{
+display:flex;
+justify-content:space-between;
+margin-top:40px;
+}
+
+.btn{
+margin-top:20px;
+background:#27ae60;
+color:white;
+padding:10px 15px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.btn:hover{
+background:#219150;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<h1>Student Report</h1>
+<p>Academic Performance Report</p>
+</div>
+
+
+<div class="section">
+
+<h2>Student Information</h2>
+
+<div class="info-grid">
+
+<div class="info-box"><b>Name:</b> Sujata Bhamare</div>
+<div class="info-box"><b>Roll No:</b> MCA24-017</div>
+<div class="info-box"><b>Course:</b> MCA</div>
+<div class="info-box"><b>Email:</b> sujata.bhamare@gmail.com</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Academic Marks</h2>
+
+<table>
+
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+<th>Total</th>
+<th>Grade</th>
+</tr>
+
+<tr>
+<td>Database Management System</td>
+<td>82</td>
+<td>100</td>
+<td>A</td>
+</tr>
+
+<tr>
+<td>Operating System</td>
+<td>76</td>
+<td>100</td>
+<td>B+</td>
+</tr>
+
+<tr>
+<td>Data Structures</td>
+<td>88</td>
+<td>100</td>
+<td>A+</td>
+</tr>
+
+<tr>
+<td>Python Programming</td>
+<td>91</td>
+<td>100</td>
+<td>A+</td>
+</tr>
+
+<tr>
+<td>Software Engineering</td>
+<td>79</td>
+<td>100</td>
+<td>B+</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<div class="section">
+
+<h2>Attendance</h2>
+
+<div class="summary">
+
+<p><b>Total Days:</b> 120</p>
+<p><b>Present:</b> 108</p>
+<p><b>Absent:</b> 12</p>
+<p><b>Attendance Percentage:</b> 90%</p>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Performance Summary</h2>
+
+<div class="summary">
+
+<p><b>Overall Percentage:</b> 83%</p>
+<p><b>Final Grade:</b> A</p>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Teacher Remarks</h2>
+
+<div class="summary">
+<p>The student shows good understanding of subjects and actively participates in academic activities.</p>
+</div>
+
+</div>
+
+
+<div class="signature">
+<p>Class Teacher Signature</p>
+<p>Principal Signature</p>
+</div>
+
+
+<center>
+<button class="btn" onclick="window.print()">Print Report</button>
+</center>
+
+
+</div>
+
+</body>
+</html>

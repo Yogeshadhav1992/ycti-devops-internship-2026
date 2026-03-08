@@ -1,0 +1,4 @@
+student 10 devops work ci piepline >>student10.txt
+echo student 10 devops work ci piepline >>student10.txt
+echo student 10 devops work ci piepline
+student 10 devops work ci piepline

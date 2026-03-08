@@ -1,1 +1,3 @@
 test
+:student10 is worke ..test.txt
+echo :student10 is work

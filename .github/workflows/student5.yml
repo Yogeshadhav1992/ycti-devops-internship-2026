@@ -1,0 +1,36 @@
+name: YCTI DevOps CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - student1
+      - student2
+      - student3
+      - student4
+      - student5
+      - student6
+      - student7
+      - student8
+      - student9
+      - student10
+
+jobs:
+  student-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Display Branch Name
+        run: echo "Running CI for branch $GITHUB_REF_NAME"
+
+      - name: Student Work Simulation
+        run: |
+          echo "DevOps CI Pipeline Running..."
+          echo "Branch Name: $GITHUB_REF_NAME"
+          echo "Student Work Verified Successfully"
+
+      - name: Finish Pipeline
+        run: echo "YCTI DevOps Internship CI Completed"

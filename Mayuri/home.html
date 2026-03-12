@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart EDU Lab</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+/* NAVBAR */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 70px;
+background:#1a3c40;
+color:white;
+position:sticky;
+top:0;
+}
+
+header h1{
+font-size:24px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-size:16px;
+}
+
+nav a:hover{
+color:#7fffd4;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:500px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+url("https://images.unsplash.com/photo-1523240795612-9a054b0db644");
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+}
+
+.hero button{
+padding:14px 30px;
+font-size:16px;
+border:none;
+border-radius:30px;
+background:#00c896;
+color:white;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#00a37a;
+}
+
+/* FEATURES */
+
+.features{
+padding:80px 10%;
+text-align:center;
+}
+
+.features h3{
+font-size:35px;
+margin-bottom:50px;
+color:#1a3c40;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+width:280px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h4{
+margin-bottom:10px;
+color:#1a3c40;
+}
+
+/* ABOUT */
+
+.about{
+background:#1a3c40;
+color:white;
+padding:70px 15%;
+text-align:center;
+}
+
+.about h3{
+font-size:32px;
+margin-bottom:20px;
+}
+
+.about p{
+font-size:18px;
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#0f3d37;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>📘 Smart EDU Lab</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Features</a>
+<a href="#">Dashboard</a>
+<a href="#">Contact</a>
+<a href="#">Login</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div>
+
+<h2>Your AI-Powered Learning Platform</h2>
+
+<p>Smart education tools to improve learning, track progress and build skills.</p>
+
+<button>Get Started</button>
+
+</div>
+
+</section>
+
+
+
+<section class="features">
+
+<h3>Our Key Features</h3>
+
+<div class="cards">
+
+<div class="card">
+<h4>📚 Smart Learning</h4>
+<p>Interactive lessons, quizzes and AI powered study material for students.</p>
+</div>
+
+<div class="card">
+<h4>🧠 Personalized Study</h4>
+<p>Customized study plans based on your performance and learning speed.</p>
+</div>
+
+<div class="card">
+<h4>📊 Progress Tracking</h4>
+<p>Track your progress, analyze results and improve your academic performance.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<footer>
+
+<p>© 2026 Smart EDU Lab | All Rights Reserved</p>
+
+<p>
+<a href="#">Facebook</a> |
+<a href="#">Twitter</a> |
+<a href="#">Instagram</a>
+</p>
+
+</footer>
+
+</body>
+</html>

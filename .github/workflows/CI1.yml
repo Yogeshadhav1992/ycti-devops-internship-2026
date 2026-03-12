@@ -1,0 +1,27 @@
+name: YCTI Basic Pages
+
+on:
+  push:
+    branches:
+      - main
+      - student*
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Show Branch
+      run: echo "Running CI for ${{ github.ref_name }}"
+
+    - name: Build Simulation
+      run: |
+        echo "CI Pipeline Running..."
+        echo "Student Branch: ${{ github.ref_name }}"
+        echo "Build Successful"

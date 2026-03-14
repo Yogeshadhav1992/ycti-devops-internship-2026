@@ -1,0 +1,2 @@
+student 7 devops work ci pipeline >>student7.txt
+echo student 7 devops work ci pipeline
